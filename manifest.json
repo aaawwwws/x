@@ -1,0 +1,12 @@
+{
+  "name": "ゴミ捨て",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "ゴミは消しましょう",
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/home/*"],
+      "js": ["src/main.js"]
+    }
+  ]
+}
